@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- <div id="firstdiv" class="red bg-yellow">First</div>
+    <div id="seconddiv">second</div>
+    <span class="red"></span> -->
+    <header>
+
+        <div class="logo">
+            @ MyBlog
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <h1>Welcome to <span>MyBlog</span></h1>
+
+        <button class="cta-button">Explore Now</button>
+    </section>
+    <section id="blog" class="blog">
+        <h2>Latest Posts</h2>
+        <div class="blog-posts">
+            <div class="post-card">
+                <img src="https://i0.wp.com/www.topfinancereads.com/wp-content/uploads/2024/08/2cc46f36thumbnail.jpeg"
+                    alt="post 1">
+                <h3>deep work</h3>
+                <p>. Willpower Is Limited, Ritual and Habit Will Get You into Deep Work</p>
+            </div>
+            <div class="post-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkqcs7BjcV0f9lR1DQ3B9V7NwZ64ZOVRuTXQ&s"
+                    alt="Post 2">
+                <h3>money </h3>
+                <p>“Beware of little expenses. A small leak will sink a great ship.” </p>
+            </div>
+            <div class="post-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToYttMkKOxUlAlR0ixYyZ59S8hGMuku1xjJg&s"
+                    alt="Post 3">
+                <h3>work outs</h3>
+                <p> The body achieves what the mind believes</p>
+            </div>
+        </div>
+    </section>
+    <section id="categories" class="categories">
+        <h2>Categories</h2>
+        <div class="category-buttons">
+            <button class="category-btn">Tech</button>
+            <button class="category-btn">Travel</button>
+            <button class="category-btn">Food</button>
+            <button class="category-btn">Lifestyle</button>
+        </div>
+    </section>
+    <section class="subscribe">
+        <h2>Subscribe to Our MyBlog</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit" class="subscribe-btn">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h2>Follow Us</h2>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"> facebook</i></a>
+            <a href="#"><i class="fab fa-twitter">twitter</i></a>
+            <a href="#"><i class="fab fa-instagram">instragram<i></i></a>
+            <a href="#"><i class=" fab fa-linkedin">linkedin</i></a>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
+
+<!-- </html><script>
+        // Ripple effect for the button
+        document.querySelector('.cta-button').addEventListener('click', function (e) {
+            const ripple = document.createElement('span');
+            ripple.classList.add('ripple');
+            this.appendChild(ripple);
+            const rect = this.getBoundingClientRect();
+            ripple.style.left = `${e.clientX - rect.left}px`;
+            ripple.style.top = `${e.clientY - rect.top}px`;
+            ripple.addEventListener('animationend', () => {
+                ripple.remove();
+            });
+        });
+        </script> -->
